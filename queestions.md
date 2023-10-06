@@ -1,4 +1,4 @@
-### 1. What is the difference between _get_list(): and __get_list():?
+### 1. What is the difference between a method defined with single underscore and a double underscore?
 
  - _get_list():
 
@@ -70,4 +70,72 @@
 ### 3. What is Iterator and Generator?
 
 ### 4. What is the difference between range and xrange?
+
+### 5. Why we use Generators? Have you implemented any custom made Generator?
+
+### 6. What are the different data types in python? Are the tuple mutable? 
+ - Mention the workaround if asked to make tuple mutable.
+
+### 7. What are the packages and modules in python?
+
+### 8. Explain how python works or explain the python internals?
+
+### 9. Explain Function Overloading.
+
+### 10. Explain Map, Reduce and Filter.
+
+### 11. Explain Lambda function.
+
+### 12. Explain Closures.
+
+### 13. What is PIP and PEP8?   
+
+### 14. What is the difference between the list and tuple?
+
+### 15. What are forzensets?
+
+### 16. What will happen if I create a dictory with duplicate keys?
+
+### 17. How would you use a decorator in a method defined inside a class?
+
+### 18. What is the zip() function in Python?
+
+### 19. what is pass by value and pass by reference?
+
+### 20. Explain the shallow copy and deep copy.
+
+### 22. What are the namespaces in Python?
+
+### 24. What is **nonlocal** keyword in Python?
+ - In Python, the nonlocal keyword is used to declare a variable that is not local to the current scope, but instead comes from the nearest enclosing scope. This is useful for nested functions, as it allows the inner function to access variables that are defined in the outer function.
+
+    ```python
+    def outer():
+    x = 10
+
+    def inner():
+        nonlocal x
+        x += 1
+        print(x)
+
+    inner()
+
+    outer()
+
+    # Here the output will be 11``
+    ```
+
+### 24. What is the difference between the **is** and **==** operators in Python?
+
+### 25. What is **Global** keyword in Python?
+
+
+### 26. What is pass, continue and break in Python?
+
+### 27. What is the difference between the **isinstance()** and **type()** functions?
+
+### 28. What is the difference between the **deepcopy()** and **copy()** functions in Python?
+
+
+## Rest will be added soon...............
 
