@@ -32,7 +32,7 @@
    # print(obj.__get_list())  # Raises an AttributeError
 
    # Accessing the name-mangled version of __get_list() is possible.
-print(obj._MyClass__get_list())  # Output: This is __get_list()
+    print(obj._MyClass__get_list())  # Output: This is __get_list()
    
    ```
 
